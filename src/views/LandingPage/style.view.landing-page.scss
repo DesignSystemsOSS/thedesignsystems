@@ -1,0 +1,42 @@
+div.landing-page {
+  margin-top: 5em;
+  > p.landing-page-description {
+    text-align: center;
+    margin-top: 1.6em;
+    max-width: 90ch;
+    opacity: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+  }
+  > div.cta-buttons-wrapper {
+    margin-top: 3em;
+  }
+}
+
+div.updates-alert-toast {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  padding: 0.4em 0.8em;
+  gap: 8px;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 8px;
+  color: white;
+  > span.new-tag {
+    padding: 6px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+}
