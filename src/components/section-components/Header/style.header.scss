@@ -1,0 +1,31 @@
+header.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.4em;
+  > div.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    > p.logo-title {
+      font-weight: 500;
+    }
+  }
+  > div.header-options-wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    > ul.header-options-list {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 28px;
+    }
+    > div.account-cta-buttons-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+button.button {
+  padding: 0.8em 1.6em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button.button {
+  &-primary {
+    background-color: var(--primary-blue);
+    color: white;
+    &:hover {
+      background-color: var(--primary-light-blue);
+    }
+  }
+  &-outline {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    &:hover {
+      background-color: rgba($color: white, $alpha: 0.1);
+    }
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  &-center {
+    margin: auto;
+    width: fit-content;
+  }
+}
