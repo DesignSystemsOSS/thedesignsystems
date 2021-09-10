@@ -1,0 +1,16 @@
+body {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#121212), color-stop(349.72%, #00186F));
+  background: linear-gradient(180deg, #121212 0%, #00186F 349.72%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: var(--font-inter);
+}
+
+.center__view {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}
+/*# sourceMappingURL=index.css.map */

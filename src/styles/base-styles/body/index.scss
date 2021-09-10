@@ -1,0 +1,14 @@
+body {
+  color: white;
+  background: linear-gradient(180deg, #121212 0%, #00186F 349.72%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: var(--font-inter);
+}
+
+.center__view {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}

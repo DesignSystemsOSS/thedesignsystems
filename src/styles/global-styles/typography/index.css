@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a:hover {
+  opacity: 80%;
+}
+
+a:focus {
+  color: var(--primary-blue);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.massive-tagline {
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.gradient-text {
+  height: 1.5em;
+  background-image: linear-gradient(45deg, #ff61d3 10%, #b318ff 40%, #b318ff 60%, #00f0ff 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=index.css.map */
