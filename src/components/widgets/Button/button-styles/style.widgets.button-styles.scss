@@ -12,6 +12,9 @@ button.button {
   &:hover {
     cursor: pointer;
   }
+  &:focus {
+    outline: none;
+  }
 }
 
 button.button {

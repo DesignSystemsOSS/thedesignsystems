@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.views.team.scss"
+    ],
+    "names": [],
+    "file": "style.views.team.css"
+}

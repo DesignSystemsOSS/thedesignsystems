@@ -16,6 +16,7 @@ a:hover {
 
 a:focus {
   color: var(--primary-blue);
+  outline: none;
 }
 
 h1 {

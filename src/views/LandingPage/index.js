@@ -19,6 +19,11 @@ export default function LandingPage() {
         <Button value="Get started" type="primary" />
         <Button value="Check our GitHub" type="outline" startIcon="fab fa-github" />
       </div>
+      
+      {/* about the-design-systems */} 
+      <div className="about-the-design-systems-section-wrapper">
+
+      </div>
     </div>
   )
 }

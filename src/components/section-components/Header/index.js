@@ -22,8 +22,7 @@ export default function Header() {
           })}
         </ul>
         <div className="account-cta-buttons-wrapper">
-          <Button type="outline" value="Login" />
-          <Button type="primary" value="Create an account" />
+          <Button type="primary" value="Contact Us" />
         </div>
       </div>
     </header>
