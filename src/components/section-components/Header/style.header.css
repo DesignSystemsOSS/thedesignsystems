@@ -11,7 +11,7 @@ header.header {
   margin-top: 3.4em;
 }
 
-header.header > div.logo-wrapper {
+header.header > a.logo-wrapper-link > div.logo-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +21,7 @@ header.header > div.logo-wrapper {
   gap: 14px;
 }
 
-header.header > div.logo-wrapper > p.logo-title {
+header.header > a.logo-wrapper-link > div.logo-wrapper > p.logo-title {
   font-weight: 500;
 }
 
