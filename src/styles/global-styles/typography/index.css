@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  opacity: 80%;
+  color: #f2f2f2;
 }
 
 a:focus {
