@@ -1,0 +1,24 @@
+div.career-opening-card {
+  width: 360px;
+  margin: auto;
+  padding: 2.4em 1.2em;
+  background-color: #ffffff;
+  border-radius: 6px;
+  color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+div.career-opening-card:hover {
+  cursor: pointer;
+  background-color: #fefefe;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+div.career-opening-card > p.career-role-description {
+  max-width: 40ch;
+  margin-top: 0.6em;
+  margin-bottom: 1.4em;
+}
+/*# sourceMappingURL=style.widgets.cards.career-opening-card.css.map */
