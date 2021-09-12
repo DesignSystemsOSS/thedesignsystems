@@ -13,7 +13,10 @@ div.careers > p.careers-page-section-description {
 }
 
 div.careers > div.volunteer-roles-section {
-  margin-top: 8em;
+  width: 90%;
+  margin-top: 3em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 div.careers > div.volunteer-roles-section > h3.volunteer-roles-title {
@@ -24,8 +27,8 @@ div.careers > div.volunteer-roles-section > div.volunteer-roles-wrapper {
   margin-top: 3em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
   margin-right: auto;
   margin-left: auto;
   row-gap: 3em;

@@ -56,4 +56,39 @@ header.header > div.header-options-wrapper > div.account-cta-buttons-wrapper {
           align-items: center;
   gap: 20px;
 }
+
+.color-change-4x {
+  -webkit-animation: color-change-4x 3s linear infinite alternate both;
+          animation: color-change-4x 3s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-4x {
+  0% {
+    color: #ff61d3;
+  }
+  33.3333% {
+    color: #b318ff;
+  }
+  66.666% {
+    color: #00f0ff;
+  }
+  100% {
+    color: #006eff;
+  }
+}
+
+@keyframes color-change-4x {
+  0% {
+    color: #ff61d3;
+  }
+  33.3333% {
+    color: #b318ff;
+  }
+  66.666% {
+    color: #00f0ff;
+  }
+  100% {
+    color: #006eff;
+  }
+}
 /*# sourceMappingURL=style.header.css.map */

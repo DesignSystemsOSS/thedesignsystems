@@ -16,6 +16,25 @@ div.landing-page > div.cta-buttons-wrapper {
   margin-top: 3em;
 }
 
+div.landing-page > div.get-in-touch-section {
+  padding: 1em;
+  border-radius: 8px;
+  width: 86%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 12em;
+}
+
+div.landing-page > div.get-in-touch-section > div.get-in-touch-section-wrapper {
+  background-color: black;
+  border-radius: 8px;
+  padding: 2em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
 div.updates-alert-toast {
   margin-right: auto;
   margin-left: auto;

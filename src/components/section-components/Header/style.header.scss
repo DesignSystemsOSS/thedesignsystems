@@ -31,3 +31,21 @@ header.header {
     }
   }
 }
+
+.color-change-4x {
+  animation: color-change-4x 3s linear infinite alternate both;
+}
+@keyframes color-change-4x {
+  0% {
+    color: #ff61d3;
+  }
+  33.3333% {
+    color: #b318ff;
+  }
+  66.666% {
+    color: #00f0ff;
+  }
+  100% {
+    color: #006eff;
+  }
+}
