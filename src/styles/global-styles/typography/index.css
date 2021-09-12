@@ -16,6 +16,7 @@ a:hover {
 
 a:focus {
   color: var(--primary-blue);
+  outline: none;
 }
 
 h1 {
@@ -58,5 +59,10 @@ p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.page-title {
+  font-size: 52px;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */

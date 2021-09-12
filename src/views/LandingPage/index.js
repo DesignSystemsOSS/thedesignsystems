@@ -17,7 +17,12 @@ export default function LandingPage() {
       </p>
       <div className="cta-buttons-wrapper button-wrapper button-wrapper-center">
         <Button value="Get started" type="primary" />
-        <Button value="Check our GitHub" type="outline" startIcon="fab fa-github" />
+        <Button value="Check our GitHub" type="outline" startIcon="fab fa-github" onClick={() => window.open('https://www.github.com/DesignSystemsOSS')} />
+      </div>
+      
+      {/* about the-design-systems */} 
+      <div className="about-the-design-systems-section-wrapper">
+
       </div>
     </div>
   )

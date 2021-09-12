@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,oBAAoB,CAAC;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,WAAW;EACpB,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,gBAAgB;CAW7B;;AAlBD,AAQE,GARC,AAAA,oBAAoB,AAQpB,MAAM,CAAC;EACN,MAAM,EAAE,OAAO;EACf,gBAAgB,EAAE,OAAO;EACzB,SAAS,EAAE,gBAAgB;CAC5B;;AAZH,AAaE,GAbC,AAAA,oBAAoB,GAanB,CAAC,AAAA,wBAAwB,CAAC;EAC1B,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;CACrB",
+    "sources": [
+        "style.widgets.cards.career-opening-card.scss"
+    ],
+    "names": [],
+    "file": "style.widgets.cards.career-opening-card.css"
+}

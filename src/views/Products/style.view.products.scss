@@ -1,0 +1,30 @@
+div.products {
+  margin-top: 8em;
+  > p.products-section-description {
+    text-align: center;
+    color: #f2f2f2;
+    width: 60ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    font-size: 20px;
+  }
+  > div.cta-github-button-wrapper {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+  }
+
+  > div.products-wrapper {
+    margin-top: 1em;
+    > h2.products-section-heading {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 3em;
+      width: fit-content;
+      text-align: center;
+      margin-bottom: 2em;
+    }
+  }
+}

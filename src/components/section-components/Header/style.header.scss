@@ -3,12 +3,14 @@ header.header {
   align-items: center;
   justify-content: space-between;
   margin-top: 3.4em;
-  > div.logo-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    > p.logo-title {
-      font-weight: 500;
+  > a.logo-wrapper-link {
+    > div.logo-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      > p.logo-title {
+        font-weight: 500;
+      }
     }
   }
   > div.header-options-wrapper {

@@ -19,6 +19,10 @@ button.button:hover {
   cursor: pointer;
 }
 
+button.button:focus {
+  outline: none;
+}
+
 button.button-primary {
   background-color: var(--primary-blue);
   color: white;

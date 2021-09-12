@@ -1,38 +1,29 @@
-.teams-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80rem;
-    height: 40rem;
-}
-
-.team-cards{
-    display: flex;
-    margin-top: 30px;
-
-    & .team-profiles{
-        display: flex;
-        gap: 35px;
-    }
-}
-
-.profile-data{
+div.profile-data{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     & img{
         width: 150px;
+        height: auto;
+        margin-top: 2em;
     }
 
     & .member-name{
-        margin-top: 15px;
-    }
-
-    & a{
-        margin-top: 5px;
-        display: flex;
+        margin-top: 0.5em;
     }
 }
+
+p.member-role{
+    margin-top: 5px;
+}
+
+div.profile-card-links{
+    margin-top: 5px;
+
+    & a{
+        padding: 7px;
+    }
+}
+
+
