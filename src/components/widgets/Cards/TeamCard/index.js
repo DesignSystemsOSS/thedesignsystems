@@ -4,10 +4,13 @@ import "./style.cards.teamcard-styles.css";
 export default function TeamCard(__TeamCardDetails) {
   return (
       <div className="profile-data">
-        <img
-          src={__TeamCardDetails.ImageURL}
-          alt={__TeamCardDetails.UserName}
-        />
+        <div className="profile-image-wrapper gradient">
+          <img
+            src={__TeamCardDetails.ImageURL}
+            alt={__TeamCardDetails.UserName}
+            className="profile-image"
+          />
+        </div>
         <h3 className="member-name">{__TeamCardDetails.UserName}</h3>
         <p className="member-role">{__TeamCardDetails.RoleTitle}</p>
         <div className="profile-card-links">
