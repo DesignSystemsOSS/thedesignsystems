@@ -1,0 +1,29 @@
+div.profile-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img{
+        width: 150px;
+        height: auto;
+        margin-top: 2em;
+    }
+
+    & .member-name{
+        margin-top: 0.5em;
+    }
+}
+
+p.member-role{
+    margin-top: 5px;
+}
+
+div.profile-card-links{
+    margin-top: 5px;
+
+    & a{
+        padding: 7px;
+    }
+}
+
+

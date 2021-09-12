@@ -12,6 +12,7 @@ function App() {
     <div className="center__view App">
       {/* header component */}
       <Header />
+
       <BrowserRouter>
         <Route path="/" exact component={LandingPage} />
         <Route path="/team" exact component={Team} />

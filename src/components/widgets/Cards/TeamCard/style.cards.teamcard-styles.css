@@ -1,0 +1,35 @@
+div.profile-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.profile-data img {
+  width: 150px;
+  height: auto;
+  margin-top: 2em;
+}
+
+div.profile-data .member-name {
+  margin-top: 0.5em;
+}
+
+p.member-role {
+  margin-top: 5px;
+}
+
+div.profile-card-links {
+  margin-top: 5px;
+}
+
+div.profile-card-links a {
+  padding: 7px;
+}
+/*# sourceMappingURL=style.cards.teamcard-styles.css.map */
