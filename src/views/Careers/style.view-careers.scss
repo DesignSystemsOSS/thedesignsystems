@@ -10,14 +10,17 @@ div.careers {
     font-size: 20px;
   }
   > div.volunteer-roles-section {
-    margin-top: 8em;
+    width: 90%;
+    margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
     > h3.volunteer-roles-title {
       text-align: center;
     }
     > div.volunteer-roles-wrapper {
       margin-top: 3em;
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto;
       margin-right: auto;
       margin-left: auto;
       row-gap: 3em;

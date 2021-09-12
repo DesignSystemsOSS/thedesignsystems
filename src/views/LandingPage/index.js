@@ -16,14 +16,30 @@ export default function LandingPage() {
         The DesignSystems' tools helps you write more scalable code without worrying about design mistakes. Built for developers and teams to save their time.
       </p>
       <div className="cta-buttons-wrapper button-wrapper button-wrapper-center">
-        <Button value="Get started" type="primary" />
-        <Button value="Check our GitHub" type="outline" startIcon="fab fa-github" onClick={() => window.open('https://www.github.com/DesignSystemsOSS')} />
+        <Button value="Join our Discord" type="primary" startIcon="fab fa-discord" />
+        <a href="https://www.github.com/DesignSystemsOSS" target="_blank" rel="noreferrer">
+        <Button value="Check our GitHub" type="outline" startIcon="fab fa-github" />
+        </a>
       </div>
       
       {/* about the-design-systems */} 
       <div className="about-the-design-systems-section-wrapper">
 
       </div>
+
+      {/* Get in touch section */}
+      <div className="get-in-touch-section gradient">
+        <div className="get-in-touch-section-wrapper">
+          <h2 className="get-in-touch-title">
+            Get in touch with <span className="gradient-text">The DesignSystems Community</span>
+          </h2>
+          <div className="social-icons-wrapper button-wrapper">
+            <Button type="outline" value="Follow us on Twitter" startIcon="fab fa-twitter" />
+            <Button type="primary" value="Join Discord Community" startIcon="fab fa-discord" />
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }

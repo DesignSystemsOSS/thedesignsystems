@@ -12,6 +12,23 @@ div.landing-page {
   > div.cta-buttons-wrapper {
     margin-top: 3em;
   }
+
+  // get-in-touch card
+  > div.get-in-touch-section {
+    padding: 1em;
+    border-radius: 8px;
+    width: 86%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12em;
+    > div.get-in-touch-section-wrapper {
+      background-color: black;
+      border-radius: 8px;
+      padding: 2em;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
 }
 
 div.updates-alert-toast {
