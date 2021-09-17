@@ -1,5 +1,5 @@
 import { BrowserRouter, Route } from "react-router-dom";
-// import Footer from "./components/section-components/Footer";
+import Footer from "./components/section-components/Footer";
 import Header from "./components/section-components/Header";
 import './styles/index.css';
 import Careers from "./views/Careers";
@@ -20,7 +20,7 @@ function App() {
         <Route path="/careers" exact component={Careers} />
       </BrowserRouter>
       {/* footer component */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
