@@ -1,7 +1,7 @@
 name: Feature request
 description: Suggest features, propose improvements, discuss new ideas
 title: "[FEATURE] <description>"
-# labels: [""]
+labels: ["New Feature Suggestions ⭐"]
 body:
   - type: textarea
     id: suggestion
@@ -31,5 +31,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        You can also join the Discord community [here](http://discord.eddiehub.org)
+        You can also join the Discord community [here](https://thedesignsystems.vercel.app/discord)
         Feel free to check out other cool repositories of the The DesignSystems Community [here](https://bit.ly/thedesignsystems-github)
