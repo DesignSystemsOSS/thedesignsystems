@@ -23,5 +23,6 @@ div.team-members-section-wrapper {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 4em;
 }
 /*# sourceMappingURL=style.views.team.css.map */

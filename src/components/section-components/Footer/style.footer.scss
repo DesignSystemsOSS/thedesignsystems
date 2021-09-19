@@ -1,15 +1,99 @@
 div.footer {
-  // border-top: 1.2px solid #ffffff33;
-  // margin-top: 6em;
-  // padding-top: 6em;
-  // display: grid;
-  // grid-template-columns: auto auto auto;
-  // > div.logo-wrapper {
-  //   display: flex;
-  //   align-items: center;
-  //   gap: 14px;
-  //   > p.logo-title {
-  //     font-weight: 500;
-  //   }
-  // }
+  border-top: 1.2px solid #ffffff33;
+  margin-top: 6em;
+  padding-top: 6em;
+  display: flex;
+  flex-direction: column;
+  
+  > div.footer-row-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    > div.logo-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+    }
+
+    > div.footer-col-1{
+      display: flex;
+      justify-content: space-around;
+
+      > div.useful-links-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        > div.useful-links-list{
+          margin-top: 10px;
+          line-height: 1.5;
+
+          > ul.useful-links-list{
+            list-style:none;
+          }
+        }
+      }
+
+      > div.products-links-section{
+        display: flex;
+        flex-direction: column;
+
+        > div.product-links-list{
+          margin-top: 10px;
+
+          > ul.products-links-list{
+            list-style:none;
+          }
+        }
+      }
+    }
+
+    > div.footer-col-2{
+      margin-left: 10%;
+
+      > div.connect-community{
+        display: flex;
+        flex-direction: column;
+
+        > div.community-links-wrapper{
+          display: flex;
+          flex-direction: row;
+          margin-top: 10px;
+          justify-content:space-evenly;
+          margin-left: -30px;
+        }
+      }
+    }
+  }
+
+  > div.footer-row-2{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    > div.social-links-container{
+      display: flex;
+      
+      > div.social-links-list{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 4rem;
+
+        > a , button{
+          padding:8px;
+          border-radius: 20px;
+          border:none;
+          cursor: pointer;
+        }
+      }
+    }
+
+    > div.privacy-copyright-links-title{
+      display: flex;
+      gap: 40px;
+      padding: 4.5rem;
+      justify-content: flex-end;
+    }
+  }
 }

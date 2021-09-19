@@ -1,1 +1,153 @@
-/* No CSS *//*# sourceMappingURL=style.footer.css.map */
+div.footer {
+  border-top: 1.2px solid #ffffff33;
+  margin-top: 6em;
+  padding-top: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.footer > div.footer-row-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+div.footer > div.footer-row-1 > div.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 > div.useful-links-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 > div.useful-links-section > div.useful-links-list {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 > div.useful-links-section > div.useful-links-list > ul.useful-links-list {
+  list-style: none;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 > div.products-links-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 > div.products-links-section > div.product-links-list {
+  margin-top: 10px;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-1 > div.products-links-section > div.product-links-list > ul.products-links-list {
+  list-style: none;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-2 {
+  margin-left: 10%;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community > div.community-links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: -30px;
+}
+
+div.footer > div.footer-row-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+div.footer > div.footer-row-2 > div.social-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.footer > div.footer-row-2 > div.social-links-container > div.social-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  padding: 4rem;
+}
+
+div.footer > div.footer-row-2 > div.social-links-container > div.social-links-list > a, div.footer > div.footer-row-2 > div.social-links-container > div.social-links-list button {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+div.footer > div.footer-row-2 > div.privacy-copyright-links-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  padding: 4.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=style.footer.css.map */

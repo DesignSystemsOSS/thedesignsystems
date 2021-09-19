@@ -11,10 +11,30 @@ div.profile-data {
           align-items: center;
 }
 
-div.profile-data img {
+div.profile-data > div.profile-image-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.4em;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+div.profile-data > div.profile-image-wrapper > img.profile-image {
   width: 150px;
   height: auto;
-  margin-top: 2em;
 }
 
 div.profile-data .member-name {
