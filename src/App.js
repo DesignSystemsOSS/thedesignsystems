@@ -11,6 +11,7 @@ import Twitter from "./views/Redirect/Twitter";
 import GitHub from "./views/Redirect/GitHub";
 import LinkedIn from "./views/Redirect/Linkedin";
 import PersonalLinks from "./views/PersonalLinks";
+import ContactUs from "./views/ContactUs";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/team" exact component={Team} />
         <Route path="/products" exact component={Products} />
         <Route path="/careers" exact component={Careers} />
+        <Route path="/contact-us" exact component={ContactUs} />
         {/* routes for re-direction to external links */}
         <Route path="/discord" exact component={Discord} />
         <Route path="/twitter" exact component={Twitter} />
