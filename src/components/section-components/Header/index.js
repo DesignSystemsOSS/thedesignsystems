@@ -33,9 +33,11 @@ export default function Header() {
             }
           })}
         </ul>
-        <div className="account-cta-buttons-wrapper">
-          <Button type="primary" value="Contact Us" />
-        </div>
+        <a href="/contact-us" rel="noreferrer">
+          <div className="account-cta-buttons-wrapper">
+            <Button type="primary" value="Contact Us" />
+          </div>
+        </a>
       </div>
     </header>
   )
