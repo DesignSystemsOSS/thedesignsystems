@@ -35,4 +35,51 @@ div.products > div.products-wrapper > h2.products-section-heading {
   text-align: center;
   margin-bottom: 2em;
 }
+
+@media screen and (max-width: 1400px) {
+  div.products {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8em;
+    width: 90%;
+  }
+  div.products > h1.products-section-title {
+    font-size: 26px;
+  }
+  div.products > p.products-section-description {
+    text-align: center;
+    color: #f2f2f2;
+    width: 60ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    font-size: 14px;
+  }
+  div.products > div.gradient-text {
+    display: block;
+    margin: auto;
+    background-color: black;
+  }
+  div.products > div.cta-github-button-wrapper {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+  }
+  div.products > div.products-wrapper {
+    margin-top: 1em;
+  }
+  div.products > div.products-wrapper > h2.products-section-heading {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+}
 /*# sourceMappingURL=style.view.products.css.map */

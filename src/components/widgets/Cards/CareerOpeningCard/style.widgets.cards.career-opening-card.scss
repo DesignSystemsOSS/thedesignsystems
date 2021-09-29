@@ -20,3 +20,35 @@ div.career-opening-card {
     margin-bottom: 1.4em;
   }
 }
+
+// media-queries for different resolutions and screen-widths
+
+// scss-query for screen-size: (maximum-width: 1400px)
+
+@media screen and (max-width: 1400px) {
+  div.career-opening-card {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 2.4em 1.2em;
+    background-color: #ffffff;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background-color: #fefefe;
+      transform: translateY(-2px);
+    }
+    > p.career-role-description {
+      max-width: 40ch;
+      margin-top: 0.6em;
+      margin-bottom: 1.4em;
+    }
+  }
+}
