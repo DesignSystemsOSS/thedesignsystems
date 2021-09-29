@@ -1,4 +1,89 @@
 div.contact-us {
-  margin-top: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8em;
+}
+
+div.contact-us > p.contact-us-section-description {
+  margin-top: 1em;
+  font-size: 20px;
+  text-align: center;
+  color: #f2f2f2;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.contact-us > div.form-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 10px;
+  margin-top: 4em;
+  width: 51em;
+  height: 26em;
+  background: white;
+  border-radius: 20px;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1em;
+  margin-right: 5em;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > label {
+  color: black;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > label > input {
+  display: block;
+  padding: 0.8em 1em;
+  border-radius: 10px;
+  margin-top: 0.5em;
+  border: 2px solid black;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > label > input:focus {
+  outline: none;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > textarea {
+  margin-top: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em 0.8em;
+  border: 2px solid black;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > textarea:focus {
+  outline: none;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > a.submit-form-button {
+  margin-top: 0.6em;
 }
 /*# sourceMappingURL=style.view.contact-us.css.map */
