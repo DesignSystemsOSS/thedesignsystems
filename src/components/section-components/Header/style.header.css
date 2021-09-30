@@ -8,7 +8,9 @@ header.header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 3.4em;
+  margin: auto;
+  margin-top: 2em;
+  width: 90%;
 }
 
 header.header > a.logo-wrapper-link > div.logo-wrapper {
