@@ -48,7 +48,7 @@ p {
 }
 
 .massive-tagline {
-  font-size: 100px;
+  font-size: clamp(40px, 8vw, 100px);
   font-weight: 800;
   text-align: center;
 }

@@ -13,7 +13,9 @@ h1.title{
 div.team-members-section-wrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-top: 4em;
+    margin: 4em 4em 0;
+
 }

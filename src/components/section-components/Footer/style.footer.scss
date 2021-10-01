@@ -7,7 +7,8 @@ div.footer {
   
   > div.footer-row-1{
     display: grid;
-    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 
     > div.logo-container{
       display: flex;
@@ -23,7 +24,6 @@ div.footer {
       > div.useful-links-section{
         display: flex;
         flex-direction: column;
-        align-items: center;
 
         > div.useful-links-list{
           margin-top: 10px;
@@ -56,20 +56,30 @@ div.footer {
         display: flex;
         flex-direction: column;
 
+        >p.community-title {
+          margin-top: .5em;
+          height: fit-content;
+        }
+
         > div.community-links-wrapper{
           display: flex;
           flex-direction: row;
           margin-top: 10px;
           justify-content:space-evenly;
-          margin-left: -30px;
+
+
+          a{
+            margin: .5em;
+          }
         }
       }
     }
   }
 
   > div.footer-row-2{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+
 
     > div.social-links-container{
       display: flex;
@@ -82,18 +92,59 @@ div.footer {
 
         > a , button{
           padding:8px;
-          border-radius: 20px;
+          border-radius: 50px;
           border:none;
           cursor: pointer;
+          width: 4em;
+          height: 4em;
         }
       }
     }
 
     > div.privacy-copyright-links-title{
+      margin-left: 3em;
       display: flex;
-      gap: 40px;
+      gap: 50px;
       padding: 4.5rem;
       justify-content: flex-end;
     }
   }
+}
+
+
+@media screen and (max-width: 1200px)  {
+  div.footer {
+    >div.footer-row-2{
+      display: flex;
+      align-items: center;
+      
+      flex-direction: column;
+      > div.social-links-container{
+        > div.social-links-list{
+          padding: 1rem;
+        }
+      }
+      > div.privacy-copyright-links-title{
+        margin-left: 0;
+        padding: 2rem;
+        justify-content: flex-end;
+      }
+      }
+  }
+
+
+  
+}
+@media screen and (max-width: 600px)  {
+  div.footer {
+    >div.footer-row-2{
+      > div.privacy-copyright-links-title{
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+      }
+    } 
+  }
+
+  
 }

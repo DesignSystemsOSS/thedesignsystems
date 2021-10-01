@@ -2,10 +2,12 @@ import React from "react";
 import { useState } from "react";
 import "./style.footer.css";
 import LinksData from "./__usefulLinks.json";
+import NavLinksData from "./__navLinks.json";
 import Button from "../../widgets/Button";
 
 export default function Footer() {
   const [footerLinksDetails] = useState(LinksData);
+  const [footerNavLinksDetails] = useState(NavLinksData);
   return (
     <div className="footer">
       <div className="footer-row-1">
@@ -20,19 +22,10 @@ export default function Footer() {
               <b>Useful links</b>
             </p>
             <div className="useful-links-list">
-              {footerLinksDetails.map((data, index) => (
-                <ul className="useful-links-list">
+              {footerNavLinksDetails.map((data, index) => (
+                <ul className="useful-links-list" key={index}>
                   <li className="useful-link-item" key={index}>
-                    <a href={data.Home}>Home</a>
-                  </li>
-                  <li className="useful-link-item" key={index}>
-                    <a href={data.Career}>Career</a>
-                  </li>
-                  <li className="useful-link-item" key={index}>
-                    <a href={data.Team}>Team</a>
-                  </li>
-                  <li className="useful-link-item" key={index}>
-                    <a href={data.Contact}>Contact Us</a>
+                    <a href={data.path} key={index}>{data.title}</a>
                   </li>
                 </ul>
               ))}
@@ -45,9 +38,9 @@ export default function Footer() {
             </p>
             <div className="product-links-list">
               {footerLinksDetails.map((data, index) => (
-                <ul className="products-links-list">
+                <ul className="products-links-list" key={index}>
                   <li className="products-links-item" key={index}>
-                    <a href={data.Eccentrictouch}>Eccentrictouch</a>
+                    <a href={data.path} key={index}>{data.title}</a>
                   </li>
                 </ul>
               ))}
@@ -92,49 +85,21 @@ export default function Footer() {
 
       <div className="footer-row-2">
         <div className="social-links-container">
+          <div className="social-links-list">
           {footerLinksDetails.map((data, index) => (
-            <div className="social-links-list">
+            <div  key={index}>
               <a
-                href={data.LinkedIn}
+                href={data.path}
                 target="_blank"
                 rel="noreferrer"
                 key={index}
                 className="color-change-4x"
               >
-                <button type="button" className="fab fa-linkedin"></button>
-              </a>
-
-              <a
-                href={data.GitHub}
-                target="_blank"
-                rel="noreferrer"
-                key={index}
-              >
-                <button
-                  type="button"
-                  className="fab fa-github social-link"
-                ></button>
-              </a>
-
-              <a
-                href={data.Twitter}
-                target="_blank"
-                rel="noreferrer"
-                key={index}
-              >
-                <button type="button" className="fab fa-twitter"></button>
-              </a>
-
-              <a
-                href={data.Discord}
-                target="_blank"
-                rel="noreferrer"
-                key={index}
-              >
-                <button type="button" className="fab fa-discord"></button>
+                <button type="button" className={data.class}></button>
               </a>
             </div>
           ))}
+          </div>
         </div>
         <div className="privacy-copyright-links-title">
           <a href="#" target="_blank" rel="noreferrer">

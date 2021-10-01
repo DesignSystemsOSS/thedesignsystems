@@ -1,0 +1,23 @@
+[ 
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "Career",
+    "path": "/careers"
+  },
+  {
+    "title": "Team",
+    "path": "/team"
+  },
+  {
+    "title": "Contact",
+    "path": "/contact-us"
+  },
+  {
+    "title": "Products",
+    "path": "/products"
+  }
+
+]

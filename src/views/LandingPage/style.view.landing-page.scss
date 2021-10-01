@@ -25,8 +25,23 @@ div.landing-page {
       background-color: black;
       border-radius: 8px;
       padding: 2em;
-      display: grid;
-      grid-template-columns: auto auto;
+      display: flex;
+
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.landing-page {
+    > div.get-in-touch-section {
+      > div.get-in-touch-section-wrapper{
+        flex-direction: column;
+        >div.btn-responsive{
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
     }
   }
 }

@@ -9,6 +9,7 @@ div.profile-data {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 1em;
 }
 
 div.profile-data > div.profile-image-wrapper {

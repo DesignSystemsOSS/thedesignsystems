@@ -14,8 +14,9 @@ div.footer {
 div.footer > div.footer-row-1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  gap: 10px;
+  -ms-grid-columns: (minmax(310px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
 
 div.footer > div.footer-row-1 > div.logo-container {
@@ -47,9 +48,6 @@ div.footer > div.footer-row-1 > div.footer-col-1 > div.useful-links-section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 div.footer > div.footer-row-1 > div.footer-col-1 > div.useful-links-section > div.useful-links-list {
@@ -93,6 +91,13 @@ div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community {
           flex-direction: column;
 }
 
+div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community > p.community-title {
+  margin-top: .5em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community > div.community-links-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,14 +110,19 @@ div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community > div.c
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-left: -30px;
+}
+
+div.footer > div.footer-row-1 > div.footer-col-2 > div.connect-community > div.community-links-wrapper a {
+  margin: .5em;
 }
 
 div.footer > div.footer-row-2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 div.footer > div.footer-row-2 > div.social-links-container {
@@ -135,19 +145,60 @@ div.footer > div.footer-row-2 > div.social-links-container > div.social-links-li
 
 div.footer > div.footer-row-2 > div.social-links-container > div.social-links-list > a, div.footer > div.footer-row-2 > div.social-links-container > div.social-links-list button {
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 50px;
   border: none;
   cursor: pointer;
+  width: 4em;
+  height: 4em;
 }
 
 div.footer > div.footer-row-2 > div.privacy-copyright-links-title {
+  margin-left: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 50px;
   padding: 4.5rem;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+  div.footer > div.footer-row-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.footer > div.footer-row-2 > div.social-links-container > div.social-links-list {
+    padding: 1rem;
+  }
+  div.footer > div.footer-row-2 > div.privacy-copyright-links-title {
+    margin-left: 0;
+    padding: 2rem;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.footer > div.footer-row-2 > div.privacy-copyright-links-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.footer.css.map */

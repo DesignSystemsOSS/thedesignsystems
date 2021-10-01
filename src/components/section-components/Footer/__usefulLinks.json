@@ -1,14 +1,22 @@
 [
   {
-    "Home": "/",
-    "Career": "/careers",
-    "Team": "/team",
-    "Contact": "/contact-us",
-    "Eccentrictouch": "/products",
-
-    "LinkedIn": "https://www.linkedin.com/company/designsystemsoss/",
-    "GitHub": "https://github.com/DesignSystemsOSS",
-    "Twitter": "https://twitter.com/TDesignsystems",
-    "Discord": "https://discord.gg/VcmnY4HTEc"
+    "title": "LinkedIn",
+    "path": "https://www.linkedin.com/company/designsystemsoss/",
+    "class": "fab fa-linkedin"
+  },
+  {
+    "title": "GitHub",
+    "path": "https://github.com/DesignSystemsOSS",
+    "class": "fab fa-github "
+  },
+  {
+    "title": "Twitter",
+    "path": "https://twitter.com/TDesignsystems",
+    "class":"fab fa-twitter"
+  },
+  {
+    "title": "Discord",
+    "path": "https://discord.gg/VcmnY4HTEc",
+    "class":"fab fa-discord"
   }
 ]

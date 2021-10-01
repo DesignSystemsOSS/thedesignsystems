@@ -55,7 +55,7 @@ export default function LandingPage() {
             Get in touch with{" "}
             <span className="gradient-text">The DesignSystems Community</span>
           </h2>
-          <div className="social-icons-wrapper button-wrapper">
+          <div className="social-icons-wrapper button-wrapper btn-responsive">
             <a
               href="https://twitter.com/TDesignsystems"
               target="_blank"

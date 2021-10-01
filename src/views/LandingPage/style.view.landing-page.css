@@ -29,10 +29,30 @@ div.landing-page > div.get-in-touch-section > div.get-in-touch-section-wrapper {
   background-color: black;
   border-radius: 8px;
   padding: 2em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  div.landing-page > div.get-in-touch-section > div.get-in-touch-section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.landing-page > div.get-in-touch-section > div.get-in-touch-section-wrapper > div.btn-responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 div.updates-alert-toast {
