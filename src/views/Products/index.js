@@ -28,6 +28,7 @@ export default function Products() {
               ProductDescription={data.product_description}
               GitHubURL={data.github_url}
               key={index}
+              GetStartedURL={data.get_started_url}
             />
           ))}
         </div>
