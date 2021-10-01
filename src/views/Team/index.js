@@ -1,8 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
-import './style.views.team.css';
-import TeamCard from '../../components/widgets/Cards/TeamCard';
-import TeamCardDetails from './__team-members.json'
+import React from "react";
+import { useState } from "react";
+import "./style.views.team.css";
+import TeamCard from "../../components/widgets/Cards/TeamCard";
+import TeamCardDetails from "./__team-members.json";
 
 export default function Team() {
   const [teamMemberDetails] = useState(TeamCardDetails);
@@ -17,7 +17,7 @@ export default function Team() {
             RoleTitle={data.role}
             LinkedinProfile={data["linkedin-profile"]}
             GithubProfile={data["github-profile"]}
-            TwitterProfile={data['twitter-profile']}
+            TwitterProfile={data["twitter-profile"]}
             key={index}
           />
         ))}

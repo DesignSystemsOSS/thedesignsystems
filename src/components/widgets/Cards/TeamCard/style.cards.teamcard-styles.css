@@ -52,4 +52,10 @@ div.profile-card-links {
 div.profile-card-links a {
   padding: 7px;
 }
+
+@media (max-width: 960px) {
+  div.profile-data {
+    margin: 2rem;
+  }
+}
 /*# sourceMappingURL=style.cards.teamcard-styles.css.map */
