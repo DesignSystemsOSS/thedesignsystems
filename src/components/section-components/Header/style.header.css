@@ -1,59 +1,32 @@
 header.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 3.4em;
 }
-
 header.header > a.logo-wrapper-link > div.logo-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 14px;
 }
-
 header.header > a.logo-wrapper-link > div.logo-wrapper > p.logo-title {
   font-weight: 500;
 }
-
 header.header > div.header-options-wrapper {
   margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 28px;
 }
-
 header.header > div.header-options-wrapper > ul.header-options-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   list-style: none;
   gap: 28px;
 }
-
 header.header > div.header-options-wrapper > div.account-cta-buttons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 20px;
 }
 
@@ -90,5 +63,4 @@ header.header > div.header-options-wrapper > div.account-cta-buttons-wrapper {
   100% {
     color: #006eff;
   }
-}
-/*# sourceMappingURL=style.header.css.map */
+}/*# sourceMappingURL=style.header.css.map */
