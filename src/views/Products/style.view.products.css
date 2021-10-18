@@ -1,7 +1,6 @@
 div.products {
   margin-top: 8em;
 }
-
 div.products > p.products-section-description {
   text-align: center;
   color: #f2f2f2;
@@ -11,7 +10,6 @@ div.products > p.products-section-description {
   margin-top: 1em;
   font-size: 20px;
 }
-
 div.products > div.cta-github-button-wrapper {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -20,11 +18,9 @@ div.products > div.cta-github-button-wrapper {
   margin-left: auto;
   margin-top: 2em;
 }
-
 div.products > div.products-wrapper {
   margin-top: 1em;
 }
-
 div.products > div.products-wrapper > h2.products-section-heading {
   margin-right: auto;
   margin-left: auto;
@@ -34,5 +30,4 @@ div.products > div.products-wrapper > h2.products-section-heading {
   width: fit-content;
   text-align: center;
   margin-bottom: 2em;
-}
-/*# sourceMappingURL=style.view.products.css.map */
+}/*# sourceMappingURL=style.view.products.css.map */

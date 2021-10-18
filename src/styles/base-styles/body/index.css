@@ -1,17 +1,14 @@
 body {
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(#121212), color-stop(349.72%, #00186F));
   background: linear-gradient(180deg, #121212 0%, #00186F 349.72%);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--font-inter);
 }
-
 body ::-moz-selection {
   background-color: #00186F33;
 }
-
 body ::selection {
   background-color: #00186F33;
 }
@@ -39,5 +36,4 @@ body::-webkit-scrollbar-thumb {
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
