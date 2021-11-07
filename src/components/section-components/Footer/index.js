@@ -137,10 +137,10 @@ export default function Footer() {
           ))}
         </div>
         <div className="privacy-copyright-links-title">
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="/" target="_blank" rel="noreferrer">
             Privacy
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="/" target="_blank" rel="noreferrer">
             Terms
           </a>
           <p className="copyright-content">

@@ -5,26 +5,16 @@ div.career-opening-card {
   background-color: #ffffff;
   border-radius: 6px;
   color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-transition: 0.2s ease-in-out;
+  align-items: center;
+  justify-content: space-between;
   transition: 0.2s ease-in-out;
 }
-
 div.career-opening-card:hover {
   cursor: pointer;
   background-color: #fefefe;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  transform: translateY(-2px);
 }
-
 div.career-opening-card > p.career-role-description {
   max-width: 40ch;
   margin-top: 0.6em;
@@ -40,33 +30,21 @@ div.career-opening-card > p.career-role-description {
     background-color: #ffffff;
     border-radius: 6px;
     color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 2em;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-transition: 0.2s ease-in-out;
+    align-items: center;
+    justify-content: space-between;
     transition: 0.2s ease-in-out;
   }
   div.career-opening-card:hover {
     cursor: pointer;
     background-color: #fefefe;
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px);
+    transform: translateY(-2px);
   }
   div.career-opening-card > p.career-role-description {
     max-width: 40ch;
     margin-top: 0.6em;
     margin-bottom: 1.4em;
   }
-}
-/*# sourceMappingURL=style.widgets.cards.career-opening-card.css.map */
+}/*# sourceMappingURL=style.widgets.cards.career-opening-card.css.map */
