@@ -1,7 +1,6 @@
 div.careers {
   margin-top: 8em;
 }
-
 div.careers > p.careers-page-section-description {
   text-align: center;
   color: #f2f2f2;
@@ -11,26 +10,58 @@ div.careers > p.careers-page-section-description {
   margin-top: 1em;
   font-size: 20px;
 }
-
 div.careers > div.volunteer-roles-section {
   width: 90%;
   margin-top: 3em;
   margin-right: auto;
   margin-left: auto;
 }
-
 div.careers > div.volunteer-roles-section > h3.volunteer-roles-title {
   text-align: center;
 }
-
 div.careers > div.volunteer-roles-section > div.volunteer-roles-wrapper {
   margin-top: 3em;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
+  grid-template-columns: auto;
   margin-right: auto;
   margin-left: auto;
   row-gap: 3em;
 }
-/*# sourceMappingURL=style.view-careers.css.map */
+
+@media screen and (max-width: 1400px) {
+  div.careers {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8em;
+    width: 90%;
+  }
+  div.careers > h1.careers-page-title {
+    font-size: 26px;
+  }
+  div.careers > p.careers-page-section-description {
+    text-align: center;
+    color: #f2f2f2;
+    width: 60ch;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    font-size: 14px;
+  }
+  div.careers > div.volunteer-roles-section {
+    width: 90%;
+    margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  div.careers > div.volunteer-roles-section > h3.volunteer-roles-title {
+    text-align: center;
+  }
+  div.careers > div.volunteer-roles-section > div.volunteer-roles-wrapper {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: auto;
+    margin-right: auto;
+    margin-left: auto;
+    row-gap: 3em;
+  }
+}/*# sourceMappingURL=style.view-careers.css.map */

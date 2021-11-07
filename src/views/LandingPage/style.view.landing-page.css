@@ -1,7 +1,6 @@
 div.landing-page {
   margin-top: 5em;
 }
-
 div.landing-page > p.landing-page-description {
   text-align: center;
   margin-top: 1.6em;
@@ -11,11 +10,9 @@ div.landing-page > p.landing-page-description {
   margin-left: auto;
   font-size: 18px;
 }
-
 div.landing-page > div.cta-buttons-wrapper {
   margin-top: 3em;
 }
-
 div.landing-page > div.get-in-touch-section {
   padding: 0.6em;
   border-radius: 8px;
@@ -24,38 +21,28 @@ div.landing-page > div.get-in-touch-section {
   margin-left: auto;
   margin-top: 12em;
 }
-
 div.landing-page > div.get-in-touch-section > div.get-in-touch-section-wrapper {
   background-color: black;
   border-radius: 8px;
   padding: 2em;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 
 div.updates-alert-toast {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.4em 0.8em;
   gap: 8px;
   background: rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
@@ -63,12 +50,10 @@ div.updates-alert-toast {
   border-radius: 8px;
   color: white;
 }
-
 div.updates-alert-toast > span.new-tag {
   padding: 6px;
   background-color: #4a4aff;
   color: white;
   font-weight: 600;
   border-radius: 6px;
-}
-/*# sourceMappingURL=style.view.landing-page.css.map */
+}/*# sourceMappingURL=style.view.landing-page.css.map */

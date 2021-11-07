@@ -1,0 +1,26 @@
+input.input {
+  padding: 0.8em 1.6em;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+input.input:focus {
+  outline: none;
+}
+
+textarea.textarea {
+  padding: 0.8em 1.6em;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 800px;
+  height: 140px;
+  resize: none;
+}
+textarea.textarea:focus {
+  outline: none;
+}/*# sourceMappingURL=style.widget.input.css.map */
